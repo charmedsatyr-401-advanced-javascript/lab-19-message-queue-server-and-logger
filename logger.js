@@ -2,23 +2,24 @@
 
 const Q = require('@nmq/q/client');
 
-const files = new Q('files');
 const db = new Q('database');
-
-// Subscribe to `files` events
-files.subscribe('create', payload => console.log('create in `files`:', payload));
-
-files.subscribe('read', payload => console.log('read in `files`:', payload));
-
-files.subscribe('update', payload => console.log('update in `files`:', payload));
-
-files.subscribe('delete', payload => console.log('delete in `files`:', payload));
+const files = new Q('files');
 
 // Subscribe to `db` events
-db.subscribe('save', payload => console.log('save in `db`:', payload));
+db.subscribe('create', payload => console.log('create in `db`:', payload));
+
+db.subscribe('read', payload => console.log('read in `db`:', payload));
+
+db.subscribe('update', payload => console.log('update in `db`:', payload));
+
+db.subscribe('delete', payload => console.log('delete in `db`:', payload));
+
 db.subscribe('error', payload => console.log('error in `db`:', payload));
 
-// See all subscriptions
-console.log(files.subscriptions());
+// Subscribe to `files` events
+files.subscribe('save', payload => console.log('save in `files`:', payload));
+files.subscribe('error', payload => console.log('error in `files`:', payload));
 
+// See all subscriptions
 console.log(db.subscriptions());
+console.log(files.subscriptions());

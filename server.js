@@ -12,3 +12,4 @@ db.monitorEvent('create');
 db.monitorEvent('read');
 db.monitorEvent('update');
 db.monitorEvent('delete');
+db.monitorEvent('error');
