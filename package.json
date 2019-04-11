@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger/issues"
   },
-  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger#readme"
+  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
+  }
 }
