@@ -1,0 +1,20 @@
+{
+  "name": "lab-19-message-queue-server-and-logger",
+  "version": "0.0.1",
+  "description": "message queue server and logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger.git"
+  },
+  "keywords": [],
+  "author": "CharmedSatyr <z@charmed.tech>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger/issues"
+  },
+  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger#readme"
+}
