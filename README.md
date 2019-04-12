@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger)
-* [travis](https://travis-ci.org/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger)
+* [![Build Status](https://travis-ci.org/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger.svg?branch=submission)](https://travis-ci.org/charmedsatyr-401-advanced-javascript/lab-19-message-queue-server-and-logger)
 
 #### Documentation
 N/A
