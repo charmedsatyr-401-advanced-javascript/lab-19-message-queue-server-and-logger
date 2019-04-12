@@ -23,6 +23,7 @@ N/A
 
 ### Setup
 #### `.env` requirements
+* `Q_SERVER` - The complete url and port to which the logger should connect to find the server
 * `PORT` - Port Number
 
 #### Running the app
